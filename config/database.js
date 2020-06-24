@@ -10,6 +10,8 @@ const port = process.env.DBPORT || "27017";
 const uri = `mongodb://${username}:${password}@${host}:${port}/${database}`;
 
 const connect = ()=>{
+	console.log(uri);
+	
     Mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(()=>{
         console.log(`Conection to ${database} successful`);
