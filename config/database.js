@@ -7,12 +7,12 @@ const database = "HowToWaste";
 const host = process.env.DBHOST || "localhost";
 const port = process.env.DBPORT || "27017";
 
-const uri = `mongodb://${username}:${password}@${host}:${port}/${database}`;
+const uri = `mongodb://${host}:${port}/${database}`;
 
 const connect = ()=>{
 	console.log(uri);
 	
-    Mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
+    Mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true, user: username, pass: password })
     .then(()=>{
         console.log(`Conection to ${database} successful`);
     })
