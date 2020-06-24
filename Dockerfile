@@ -6,4 +6,4 @@ RUN mkdir nodeAPI
 
 WORKDIR /home/nodeAPI
 
-CMD ["npm", "start"]
+CMD ["bash -c", "npm i; npm start"]
