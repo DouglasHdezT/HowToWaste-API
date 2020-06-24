@@ -1,7 +1,7 @@
 const Mongoose = require("mongoose");
 
 const username = process.env.DBUSER || "root";
-const password = process.env.DBPASSWORD || "root";
+const password = process.env.DBPASS || "root";
 
 const database = "HowToWaste";
 const host = process.env.DBHOST || "localhost";
