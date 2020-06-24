@@ -7,7 +7,7 @@ const database = "HowToWaste";
 const host = process.env.DBHOST || "localhost";
 const port = process.env.DBPORT || "27017";
 
-const uri = `mongodb://${username}:${password}@${host}:${port}/${database}?authSource=admin`;
+const uri = `mongodb://${username}:${password}@${host}:${port}/${database}`;
 
 const connect = ()=>{
     Mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
