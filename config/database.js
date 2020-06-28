@@ -1,4 +1,6 @@
 const Mongoose = require("mongoose");
+const dotenv = require("dotenv");
+dotenv.config()
 
 const username = process.env.DBUSER || "root";
 const password = process.env.DBPASS || "root";
@@ -14,7 +16,8 @@ const connect = ()=>{
     .then(()=>{
         console.log(`Conection to ${database} successful`);
     })
-    .catch(()=>{
+    .catch((err)=>{
+		console.log(err);
         console.log(`An error happened trying to connect ${database} database`);
     });;
 
