@@ -13,7 +13,7 @@ const RecyletPlaceSchema = new Schema({
 		}],
 		default: []
 	},
-	direction: {
+	directions: {
 		type: [{
 			name: {
 				type: String,

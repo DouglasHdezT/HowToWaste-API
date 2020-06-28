@@ -1,1 +1,27 @@
-[]
+[
+	{
+		"name": "Alas Doradas S.A. de C.V.",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2304-2200" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2304-2261" },
+			{ "phoneType": "Celular", "phoneNumber": "+503 7930-3559" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Km. 27 1/2 Carreterra A Santa Ana",
+				"latitude": 13.762347,
+				"longitude": -89.367305
+			}
+		],
+		"emails": [ "jramirez@alas-doradas.com" ],
+		"contactWith": [ "Lic. José Manuel Ramírez Avelar" ],
+		"services":[
+			"Reciclaje de papel y cartón"
+		],
+		"materials": [
+			"Cartón",
+			"Papel de oficina"
+		]
+	}
+]
