@@ -11,9 +11,9 @@ controller.updateGet = (req, res) => {
 }
 
 controller.updatePost = (req, res) => {
-	console.log(JSON.parse(req.body.payload).ref);
+	const ref = JSON.parse(req.body.payload).ref;
 
-	execFile("sh", [`${process.env.EXECPATH}/exec.sh`], (err) => {
+	ref === "refs/heads/master" && execFile("sh", [`${process.env.EXECPATH}/exec.sh`], (err) => {
 		if(err) return res.status(500).json({});
 
 		res.status(200).json({})
