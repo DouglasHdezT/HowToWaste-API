@@ -11,9 +11,10 @@ controller.updateGet = (req, res) => {
 }
 
 controller.updatePost = (req, res) => {
+	console.log(req.body.ref);
+	
+
 	execFile("sh", [`${process.env.EXECPATH}/exec.sh`], (err) => {
-		console.log(err);
-		
 		if(err) return res.status(500).json({});
 
 		res.status(200).json({})
