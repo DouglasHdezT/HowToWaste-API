@@ -509,5 +509,516 @@
 		"materials": [
 			"Desperdicios textiles"
 		]
+	},
+  {
+		"name": "Fibras Recicladas S.A. de C.V.",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2280-0131" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "Col. América, 10 Av Sur Pje. Llerena No 1822",
+				"latitude": 13.680458,
+				"longitude": -89.293467
+			}
+		],
+		"emails": [ "f.aba@navegante.com.sv" ],
+		"contactWith": [ "Sra. Aída Nieto" ],
+		"services":[
+			"Recolección de materiales reciclables"
+		],
+		"materials": [
+			"Cartón",
+			"Hierro",
+			"Libros",
+			"Papel de oficina",
+			"Policarbonato (PP)",
+			"Policroruro de Vinilo (PVC)",
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polietileno Tereftalato (PET)",
+			"Polipropileno (PP)",
+			"Revistas"
+		]
+	},
+	{
+		"name": "Fundación Aba",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2254-0814" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "Final 13 Calle Oriente, Col. Bosques de La Paz",
+				"latitude": 13.695571,
+				"longitude": -89.120790
+			}
+		],
+		"emails": [ "jramirez@alas-doradas.com" ],
+		"contactWith": [ "Lic. José Manuel Ramírez Avelar" ],
+		"services":[
+			"Reciclaje de papel y cartón"
+		],
+		"materials": [
+			"Cartón",
+			"Papel de oficina"
+		]
+	},
+	{
+		"name": "Fundación Recicladora de Residuos Plásticos (Reciplast)",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2260-6606" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2260-6605" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "Alameda Roosevelt Edificio IPSFA, 4o Nivel",
+				"latitude": 13.701538,
+				"longitude": -89.219082
+			}
+		],
+		"emails": [ "cs@swisscontact.org.sv" ],
+		"webs": [ "www.swisscontact.org.sv" ],
+		"contactWith": [ "Sra. Claudia Salazar" ],
+		"services":[
+			"Recolección de materiales reciclables",
+			"Educación para el reciclaje"
+		],
+		"materials": [
+			"Lata de bebidas (Aluminio)",
+			"Papel de oficina",
+			"Policarbonato (PP)",
+			"Policroruro de Vinilo (PVC)",
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polietileno Tereftalato (PET)",
+			"Polipropileno (PP)"
+		]
+	},
+	{
+		"name": "Garbal / Iberplastic",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2224-0526" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2298-2931" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2314-0645" }
+		],
+		"directions": [
+			{
+				"name": "Dirección 1",
+				"desc": "Blvd. Venezuela #2731, San Salvador",
+				"latitude": 13.691646,
+				"longitude": -89.215857
+			},
+			{
+				"name": "Dirección 2",
+				"desc": "Km 24.5 Carretera Al Puerto De La Libertad, La Libertad",
+				"latitude": 13.561933,
+				"longitude": -89.294372
+			}
+		],
+		"emails": [ "jaime@garbal.com" ],
+		"contactWith": [ "Ing. Jaime Antonio Quintanilla" ],
+		"services":[
+			"Recolección de plásticos reciclables"
+		],
+		"materials": [
+			"Policarbonato (PP)",
+			"Policroruro de Vinilo (PVC)",
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polietileno Tereftalato (PET)",
+			"Polipropileno (PP)"
+		]
+	},
+	{
+		"name": "Hispalia S.A. de C.V.A",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2216-2639" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2216-2757" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2216-0442" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "Calle Troncal del Norte, Km 9 1/2, Ciudad Degado",
+				"latitude": 13.773967,
+				"longitude": -89.166440
+			}
+		],
+		"emails": [ "hispalia@elsalvador.com" ],
+		"contactWith": [ "Sr.René Martin Calderón" ],
+		"services":[
+			"Reciclaje de papel y cartón"
+		],
+		"materials": [
+			"Cartón",
+			"Libros",
+			"Papel de oficina",
+			"Papel periódico",
+			"Revistas"
+		]
+	},
+	{
+		"name": "Iasa S.A. de C. V.\n",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2221-0520" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2221-0521" },
+			{ "phoneType": "Fax", "phoneNumber": "+503 22210519" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "Calle Gerardo Barrios, #1436, entre 25 y 27 Av. Sur, San Salvador",
+				"latitude": 13.695669,
+				"longitude": -89.205657
+			}
+		],
+		"emails": [ "iasa.admon@integra.com.sv" ],
+		"contactWith": [ "Sra. Nancy Mayora" ],
+		"services":[
+			"Tratamiento de desechos industriales y urbanos"
+		],
+		"materials": [
+			"Materia Orgánica",
+			"Papel de oficina"
+		]
+	},
+	{
+		"name": "Imacasa",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2447-3077" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2447-8814" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "Fnl. Calle Libertad Poniente, Parque Industrial Santa Lucía, Santa Ana",
+				"latitude": 13.995804,
+				"longitude": -89.563639
+			}
+		],
+		"emails": [ "elsalvador@imacasa.com", "jgochez@imacasa.com" ],
+		"webs": [ "www.imacasa.com" ],
+		"contactWith": [ "Ing. Julio Góchez" ],
+		"services":[
+			"Recolección y transporte de aceite usado "
+		],
+		"materials": [
+			"Aceites y Lubricantes Usados"
+		]
+	},
+	{
+		"name": "Indurec",
+		"phoneNumbers": [
+			{ "phoneType": "Celular", "phoneNumber": "+503 7885-9733" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "Final Calle Rafael Gutierrez, Antiguo Rastro, #7, Ilopango.",
+				"latitude": 13.694160,
+				"longitude": -89.109192
+			}
+		],
+		"emails": [ "ed-alas@hotmail.com" ],
+		"contactWith": [ "Sr. Edgar Enrique Alas García" ],
+		"services":[
+			"Maquilado de plásticos"
+		],
+		"materials": [
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polipropileno (PP)"
+		]
+	},
+	{
+		"name": "Industrias Cayahuanca",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2225-0901" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2309-3857" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "Col. Libertad, Av. Bolivar #222, San Salvador",
+				"latitude": 13.723082,
+				"longitude": -89.210748
+			}
+		],
+		"emails": [ "luisayalanoyola@yahoo.com" ],
+		"contactWith": [ "Sr. Alex Ayala ", "Sr.Luis Ayala" ],
+		"services":[
+			"Recepción de plástico tipo HDPE y LDPE"
+		],
+		"materials": [
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)"
+		]
+	},
+	{
+		"name": "Industrias de reciclaje Salvadoreña S.A. (INDRESA)",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2225-5918" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2225-6667" },
+			{ "phoneType": "Fax", "phoneNumber": "+503 22254634" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "Bo. San Miguelito 23 Calle Oriente y 6 Av. Norte No 714, San Salvador",
+				"latitude": 13.714327,
+				"longitude": -89.189484
+			}
+		],
+		"emails": [ "gerencia@indresa.com.sv", "trafico@indresa.com.sv" ],
+		"contactWith": [ "Sr.Víctor Chizmar", "Sr. Vladimir Martínez" ],
+		"services":[
+			"Recolección y compra de metales no ferrosos"
+		],
+		"materials": [
+			"Aluminio de todo tipo",
+			"Bronce",
+			"Cobre",
+			"Lata de bebidas (Aluminio)"
+		]
+	},
+	{
+		"name": "Industrias la Constancia S.A. de C.V.",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2231-5153" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2231-5444" },
+			{ "phoneType": "Fax", "phoneNumber": "+503 22315152" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "Paseo Independencia #526, San Salvador",
+				"latitude": 13.700491,
+				"longitude": -89.180589
+			}
+		],
+		"emails": [ "daniel.valdivieso@ca.sabmiller.com" ],
+		"webs": [ "www.laconstancia.com" ],
+		"contactWith": [ "Ing. Daniel S.", "Valdivieso Ch." ],
+		"services":[
+			"Recolección de PET"
+		],
+		"materials": [
+			"Polietileno Tereftalato (PET)"
+		]
+	},
+	{
+		"name": "Insoex",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2227-1612" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "Col. Florencia, Calle Las Lilas #252, Soyapango",
+				"latitude": 13.696374,
+				"longitude": -89.156587
+			}
+		],
+		"emails": [ "benigue@yahoo.com" ],
+		"contactWith": [ "Sra. Verónica Guerra" ],
+		"services":[
+			"Reciclaje de plásticos"
+		],
+		"materials": [
+			"Policarbonato (PP)",
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)"
+		]
+	},
+	{
+		"name": "Invema",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2281-1511" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2281-1514" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "38 Av. Sur y Blvd. Venezuela #2011, Bo. Lourdes, San Salvador",
+				"latitude": 13.695587,
+				"longitude": -89.177527
+			}
+		],
+		"emails": [ "alfonsobarrera@invemascrap.com" ],
+		"contactWith": [ "Lic. Alonso Barrera" ],
+		"services":[
+			"Compra y venta de materiales reciclables"
+		],
+		"materials": [
+			"Acero",
+			"Aluminio de todo tipo",
+			"Bronce",
+			"Cobre",
+			"Hierro",
+			"Lata de bebidas (Aluminio)",
+			"Polietileno Tereftalato (PET)"
+		]
+	},
+	{
+		"name": "Inversiones Crissal",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2261-2326" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2261-2322" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2282-1901" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "Av Castro Morán No 60, Mejicanos",
+				"latitude": 13.725899,
+				"longitude": -89.187721
+			},
+			{
+				"name": "Principal",
+				"desc": "Alameda Juan Pablo II, Col Escalón No 310",
+				"latitude": 13.703377,
+				"longitude": -89.196876
+			}
+		],
+		"contactWith": [ "Sr. Eduardo Villalobos", "Sr. Balmore López" ],
+		"services":[
+			"Compra y venta de materiales reciclables"
+		],
+		"materials": [
+			"Acero",
+			"Aluminio de todo tipo",
+			"Bronce",
+			"Cobre",
+			"Hierro",
+			"Lata de bebidas (Aluminio)",
+			"Libros",
+			"Papel de oficina",
+			"Papel periódico",
+			"Revistas"
+		]
+	},
+	{
+		"name": "Inversiones Repacesa",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2261-1079" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2261-1072" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2261-1063" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2261-1070" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "Prolongación Alameda Juan Pablo II, Bodega San Jorge #3, San Salvador",
+				"latitude": 13.707697,
+				"longitude": -89.224819
+			}
+		],
+		"emails": [ "irepacesa@navegante.com.sv" ],
+		"webs": [ "www.repacesa.com" ],
+		"contactWith": [ "Ing. Erick Antonio Amaya Guillen" ],
+		"services":[
+			"Compra y venta de papel y aluminio"
+		],
+		"materials": [
+			"Aluminio de todo tipo",
+			"Lata de bebidas (Aluminio)",
+			"Libros",
+			"Papel de oficina",
+			"Revistas"
+		]
+	},
+	{
+		"name": "Invirtir S.A. de C.V.\n",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2528-9800" }
+		],
+		"emails": [ "invintir@telesal.net" ],
+		"contactWith": [ "Ing.Alfredo Borgonovo" ],
+		"materials": [
+			"Polietileno de Baja Densidad (LDPE)"
+		]
+	},
+	{
+		"name": "Irca, Agencia Moysi-Ramiz",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2222-8905" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2222-9883" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "Boulevard Distrito Comercial Central 11 Av Sur No 309, San Salvador",
+				"latitude": 13.697333,
+				"longitude": -89.198155
+			}
+		],
+		"emails": [ "irca@mail.com", "ruthpriscilagh@hotmail.com" ],
+		"contactWith": [ "Licda. Ruth Priscila Ramírez" ],
+		"services":[
+			"Compra y venta de materiales reciclables"
+		],
+		"materials": [
+			"Acero",
+			"Aluminio de todo tipo",
+			"Bronce",
+			"Cobre",
+			"Hierro",
+			"Lata de bebidas (Aluminio)",
+			"Papel de oficina",
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polietileno Tereftalato (PET)"
+		]
+	},
+	{
+		"name": "Julio Santillana",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2277-7457" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "Colonia Santa María Pasaje 2, Casa #23, Soyapango",
+				"latitude": 13.698092,
+				"longitude": -89.146264
+			}
+		],
+		"contactWith": [ "Sr. Julio Santillana" ],
+		"services":[
+			"Recolección de materiales reciclables"
+		],
+		"materials": [
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polipropileno (PP)"
+		]
+	},
+	{
+		"name": "Kimberly Clarck",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2319-4513" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2319-4585" }
+		],
+		"directions": [
+			{
+				"name": "Principal",
+				"desc": "Km 23 1/2, Carretera A San Juan Opico, La Libertad",
+				"latitude": 13.877000,
+				"longitude": -89.358240
+			}
+		],
+		"emails": [ "fpozas@kcc.com" ],
+		"webs": [ "www.kcc.com" ],
+		"contactWith": [ "Sr. Francisco Pozas" ],
+		"services":[
+			"Reciclaje de papel y cartón"
+		],
+		"materials": [
+			"Cartón",
+			"Papel de oficina"
+		]
 	}
 ]
