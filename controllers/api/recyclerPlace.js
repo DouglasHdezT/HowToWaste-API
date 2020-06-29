@@ -18,4 +18,8 @@ controller.dumpRecyclerPlaces = (req, res) => {
 	});
 }
 
+controller.getAll = (req, res) => {
+	
+}
+
 module.exports = controller;
