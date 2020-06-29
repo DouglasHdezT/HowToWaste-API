@@ -23,5 +23,491 @@
 			"Cartón",
 			"Papel de oficina"
 		]
+	},
+	{
+		"name": "Alcaldía Municipal de Ayutuxtepeque",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2272-6255" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2272-0546" },
+			{ "phoneType": "Fax", "phoneNumber": "+503 2272-6244" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "1ra. Calle Oriente No. 1, Ayutuxtepeque, San Salvador",
+				"latitude": 13.735108,
+				"longitude": -89.201165
+			}
+		],
+		"emails": [ "alcaldesadeayutuxtepeque@yahoo.com" ],
+		"contactWith": [ "Sra. Ana Margoth Handal de Arias" ],
+		"services":[
+			"Recolección de materiales reciclables"
+		],
+		"materials": [
+			"Aluminio de todo tipo",
+			"Cartón",
+			"Cobre",
+			"Latas de bebidas (Aluminio)",
+			"Libros",
+			"Papel de oficina",
+			"Policarbonato (PP)",
+			"Policloruro de Vinilo (PVC)",
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polietileno Tereftalato (PET)",
+			"Polopropileno (PP)",
+			"Revistas"
+		]
+	},
+	{
+		"name": "Alcaldía Municipal de San Salvador",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2202-6150" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2202-6148" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2202-6147" }
+		],
+		"directions": [
+			{
+				"name": "Estación de Servicios Municipales Aragon", 
+				"desc": "Autopista A Comalapa, Km. 1 1/2, Fte. a Rancho Navarra",
+				"latitude": 13.673955,
+				"longitude": -89.206219
+			}
+		],
+		"emails": [ "irico@amss.gob.sv" ],
+		"contactWith": [ "Ing. Claudia Maria Rico de Contreras" ],
+		"webs": [ "http://www.sansalvador.gob.sv/" ],
+		"services":[
+			"Recepción de materia orgánica y materiales reciclables"
+		],
+		"materials": [
+			"Aluminio de todo tipo",
+			"Botellas de vidrio de Licor",
+			"Botellas de vidrio Genéricas",
+			"Bronce",
+			"Cobre",
+			"Latas de bebidas (Aluminio)",
+			"Libros",
+			"Llantas",
+			"Materia Orgánica",
+			"Papel de oficina",
+			"Polietileno Tereftalato (PET)",
+			"Revistas",
+			"Vidrio"
+		]
+	},
+	{
+		"name": "Alcaldía Municipal de Suchitoto",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2335-1041" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2335-1120" }
+		],
+		"directions": [
+			{
+				"name": "Alcaldía", 
+				"desc": "Fnl. C. Fco. Morazán #7 Bo El Calvario, Suchitoto",
+				"latitude": 13.936826,
+				"longitude": -89.027473
+			},
+			{
+				"name": "Centro de Reciclaje", 
+				"desc": "Cantón Milingo, desvío La Manetca, a 1 Km. Del casco urbano de Suchitoto, Suchitoto",
+				"latitude": 13.916500,
+				"longitude": -89.038701
+			}
+		],
+		"emails": [ "conny127@hotmail.com", "suchitoto@navegante.com.sv" ],
+		"contactWith": [ "Sra. Concepción Juárez" ],
+		"services":[
+			"Recolección Separada de materia orgánica y materiales reciclables"
+		],
+		"materials": [
+			"Aluminio de todo tipo",
+			"Botellas de vidrio de Licor", 
+			"Botellas de vidrio Genéricas",
+			"Bronce",
+			"Cartón",
+			"Cobre",
+			"Latas de bebidas (Aluminio)",
+			"Libros",
+			"Llantas",
+			"Materia Orgánica",
+			"Papel de oficina",
+			"Papel periódico",
+			"Policarbonato (PP)",
+			"Policloruro de Vinilo (PVC)",
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polietileno Tereftalato (PET)",
+			"Polopropileno (PP)",
+			"Revistas",
+			"Vidrio"
+		]
+	},
+	{
+		"name": "Avangard",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2297-5856" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2297-5857" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Blvd. del Ejercito Nacional Km 7 1/2, Soyapango",
+				"latitude": 13.696918,
+				"longitude": -89.139953
+			}
+		],
+		"emails": [ "avancen@cyt.net" ],
+		"contactWith": [ "Sr. Lorenzo Rivera", "Lic. José María López" ],
+		"services":[
+			"Recolección de plásticos"
+		],
+		"materials": [
+			"Policarbonato (PP)",
+			"Policloruro de Vinilo (PVC)",
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polietileno Tereftalato (PET)",
+			"Polopropileno (PP)"
+		]
+	},
+	{
+		"name": "Baterías de El Salvador",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2318-1818" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2318-2338" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2338-5876" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Carretera A San Juan Opico Km 31 1/2 Sitio Del Niño, La Libertad",
+				"latitude": 13.789952,
+				"longitude": -89.369291
+			}
+		],
+		"emails": [ "jmacias@record.com.sv" ],
+		"webs": [ "www.record.com" ],
+		"contactWith": [ "Ing. Javier Macias", "Ing. Hugo R. Trujillo" ],
+		"services":[
+			"Recolección y transporte de aceite usado y baterías automotrices usadas"
+		],
+		"materials": [
+			"Aceites y lubricantes usados",
+			"Baterías Automotrices Plomo-Ácido",
+			"Baterías Automotrices Plomo-Gel"
+		]
+	},
+	{
+		"name": "Baterías Lasser S.A. DE C.V.",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2270-1048" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2280-1478" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2270-5863" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Calle Modelo, Bo Candelaria #278 San Salvador",
+				"latitude": 13.689841,
+				"longitude": -89.194700
+			}
+		],
+		"emails": [ "bateriaslasser@elsalvador.com" ],
+		"contactWith": [ "Sra. Blanca Estela López" ],
+		"services":[
+			"Recepción de baterías automotrices usadas"
+		],
+		"materials": [
+			"Baterías Automotrices Plomo-Ácido",
+			"Baterías Automotrices Plomo-Gel"
+		]
+	},
+	{
+		"name": "CAPSA S.A. de C.V.",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2278-0867" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Col. Jardines de Cuscatlan Calle L-4 Polig. C No C-68, Antiguo Cuscatlán",
+				"latitude": 13.676700,
+				"longitude": -89.261992
+			}
+		],
+		"emails": [ "l_rivas7777@yahoo.com" ],
+		"contactWith": [ "Sr. Luis Rivas" ],
+		"services":[
+			"Recolección de materiales reciclables"
+		],
+		"materials": [
+			"Aluminio de todo tipo",
+			"Bronce",
+			"Cartón",
+			"Cobre",
+			"Latas de bebidas (Aluminio)"
+		]
+	},
+	{
+		"name": "CORINCA",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2310-2202" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2310-2491" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Carretera A San Juan Opico, Entrada A Quezaltepeque, La Libertad.",
+				"latitude": 13.825924,
+				"longitude": -89.266302
+			}
+		],
+		"webs": [ "www.corinca.com" ],
+		"contactWith": [ "Sr. Jesús Antonio Canizales" ],
+		"services":[
+			"Compra de hierro y acero como chatarra"
+		],
+		"materials": [
+			"Acero",
+			"Hierro"
+		]
+	},
+	{
+		"name": "Diga Transportes",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2295-1358" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2295-1329" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2296-5437" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Carretera Panamericana, Km. 14 1/2 Cantón La Palma, San Martín",
+				"latitude": 13.721235,
+				"longitude": -89.068582
+			}
+		],
+		"emails": [ "luzmadeortiz@hotmail.com" ],
+		"contactWith": [ "Sra. Luz Maria de Ortiz" ],
+		"services":[
+			"Recolección de cartón"
+		],
+		"materials": [
+			"Cartón"
+		]
+	},
+	{
+		"name": "Distribuidora Comercial Figueroa, Agua de Coco, Coco Cool",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2229-9649" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Residencial Jardines de Santa Teresa, Block K, 21 Av. Nte. #22, Ciudad Merliot",
+				"latitude": 13.682079,
+				"longitude": -89.274354
+			}
+		],
+		"emails": [ "cella_012005@yahoo.com" ],
+		"contactWith": [ "Sra. Jenifer Liseth Figueroa" ],
+		"services":[
+			"Recepción de plástico tipo PET"
+		],
+		"materials": [
+			"Polietileno Tereftalato (PET)"
+		]
+	},
+	{
+		"name": "Distribuidora y Recicladora Textil",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2227-0430" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Col. Las Flores, Calle José Matías Delgado, No9 Bis, Soyapango",
+				"latitude": 13.708794,
+				"longitude": -89.157005
+			}
+		],
+		"contactWith": [ "Sra. Mary de Gálvez" ],
+		"services":[
+			"Compra y venta de desperdicios textiles"
+		],
+		"materials": [
+			"Desperdicios textiles",
+			"Trapos de limpieza o de algodón"
+		]
+	},
+	{
+		"name": "Eco Sistemas Integrales S.A. DE C.V.",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2264-6384" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2264-6385" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2264-1488" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Prolongación 75 Avenida Sur Pj. B, #1-B Col. Esacalón, San Salvador",
+				"latitude": 13.699409,
+				"longitude": -89.234260
+			}
+		],
+		"emails": [ "ecosistemas@integra.com.sv" ], 
+		"contactWith": [ "Dr. Salvador Alfredo Eguizabal" ],
+		"services":[
+			"Compra y venta de materiales reciclables"
+		],
+		"materials": [
+			"Aluminio de todo tipo",
+			"Latas de bebidas (Aluminio)",
+			"Polietileno Tereftalato (PET)"
+		]
+	},
+	{
+		"name": "Ecoamigos del Plástico / Asiplastic",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2289-1655" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2289-1660" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2245-2177" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2278-7190" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Calle L-2, Zona Industrial Merliot, Frente a Pan Bimbo, La Libertad",
+				"latitude": 13.672566,
+				"longitude": -89.262035
+			}
+		],
+		"emails": [ "cesarmelara@integra.com.sv", "ricardoaugspurg@plastitec.com.sv" ],
+		"webs": [ "www.ecoamigosdelplastico.org" ],
+		"contactWith": [ "Sr. César Melara", "Sr. Ricardo Augspurg" ],
+		"services":[
+			"Recepción de materiales plásticos para reciclar"
+		],
+		"materials": [
+			"Policarbonato (PP)",
+			"Policloruro de Vinilo (PVC)",
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polietileno Tereftalato (PET)",
+			"Polopropileno (PP)"
+		]
+	},
+	{
+		"name": "Ecología y Tecnología S.A.",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2505-0000" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Urb. Madre Selva, Edificio Cessa, Antiguo Cuscatlán",
+				"latitude": 13.663177,
+				"longitude": -89.254773
+			}
+		],
+		"emails": [ "amilcar.flores@cessa.com.sv" ],
+		"webs": [ "www.cessa.com" ],
+		"contactWith": [ "Sr. Amilcar Flores", "Sr. Carlos Escobar", "Sr. Gonzalo Flores" ],
+		"services":[
+			"Recepción de materiales reciclables"
+		],
+		"materials": [
+			"Aceites y lubricantes usados",
+			"Llantas",
+			"Medicinas Vencidas",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polietileno Tereftalato (PET)"
+		]
+	},
+	{
+		"name": "Ecotoner",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2263-6800" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Calle Ramón Belloso, No. 5, Col. Escalón, San Salvador",
+				"latitude": 13.712228,
+				"longitude": -89.250689
+			}
+		],
+		"emails": [ "ecotoner2001@yahoo.com" ],
+		"webs": [ "www.eco-toner.net" ],
+		"contactWith": [ "Sra. Yanira Ingles" ],
+		"services":[
+			"Recolección y compra de cartuchos vacíos de tinta y tóner"
+		],
+		"materials": [
+			"Cartuchos vacíos de tinta y tóner"
+		]
+	},
+	{
+		"name": "El Cocal - Nejapa",
+		"phoneNumbers": [
+			{ "phoneType": "Celular", "phoneNumber": "+503 7994-7828" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Carretera A Quezaltepeque",
+				"latitude": 13.819896,
+				"longitude": -89.251227
+			}
+		],
+		"contactWith": [ "Sr. Reynaldo Hurtado", "Sr. Jaime Portillo" ],
+		"services":[
+			"Recolección de materiales reciclables"
+		],
+		"materials": [
+			"Aluminio de todo tipo",
+			"Baterías Automotrices Plomo-Ácido",
+			"Bronce",
+			"Cobre",
+			"Hierro",
+			"Latas de bebidas (Aluminio)",
+			"Libros",
+			"Papel de oficina",
+			"Policarbonato (PP)",
+			"Policloruro de Vinilo (PVC)",
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polietileno Tereftalato (PET)",
+			"Polopropileno (PP)",
+			"Revistas"
+		]
+	},
+	{
+		"name": "Fibertex S.A. de C.V.",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2254-1950" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2294-7783" },
+			{ "phoneType": "Fax", "phoneNumber": "+503 2294-0767" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Calle Nueva y Calle Palmira, Edif. Matex, Costado Sur, Col. Santa Lucia, Ilopango, San Salvador",
+				"latitude": 13.690338,
+				"longitude": -89.140080
+			}
+		],
+		"emails": [ "fibertex@navegante.com.sv" ],
+		"webs": [ "www.fibertex.com.sv" ],
+		"contactWith": [ "Ing. Sandra Chinchilla de Ayala" ],
+		"services":[
+			"Recolección y compra/venta de desperdicios textiles"
+		],
+		"materials": [
+			"Desperdicios textiles"
+		]
 	}
 ]
