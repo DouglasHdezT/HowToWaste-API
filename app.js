@@ -10,7 +10,8 @@ const dotenv = require("dotenv");
 
 const database = require('./config/database');
 
-var utilsRouter = require('./routes/utils');
+const utilsRouter = require('./routes/utils');
+const apiRouter = require('./routes/api');
 
 /**
  * Basic configuration
@@ -62,5 +63,6 @@ app.use(express.static(path.join(__dirname, 'public')));
  */
 
 app.use("/utils", utilsRouter);
+app.use("/api", apiRouter);
 
 module.exports = app;
