@@ -16,13 +16,27 @@ var utilsRouter = require('./routes/utils');
  * Basic configuration
  */
 
+var app = express();
 dotenv.config();
 process.title = "HowToWasteAPI";
 
-var app = express();
+/**
+ * Morgan Middleware
+ */
+
+
+app.use((req, res, next) => {
+	const myDate = new Date();
+	req.myDate = `${myDate.getDate()}/${myDate.getMonth()}/${myDate.getFullYear()} ${myDate.getHours()}:${myDate.getMinutes()}`;
+	next();
+})
+
+logger.token("myDate", req => req.myDate);
+logger.format('logFormat', ':myDate, :remote-addr, :status, :method:url :response-time ms');
+
 database.connect();
 
-app.use(logger('dev'));
+app.use(logger('logFormat'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
