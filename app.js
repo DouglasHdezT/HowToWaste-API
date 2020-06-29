@@ -17,7 +17,10 @@ var utilsRouter = require('./routes/utils');
  */
 
 var app = express();
+
 dotenv.config();
+database.connect();
+
 process.title = "HowToWasteAPI";
 
 /**
@@ -47,7 +50,6 @@ logger.token("statusColored", (req, res) => {
 });
 logger.format('logFormat', ':myDate -> :method:url :statusColored, :response-time ms');
 
-database.connect();
 
 app.use(logger('logFormat'));
 app.use(express.json());
