@@ -22,4 +22,8 @@ controller.getAll = (req, res) => {
 	
 }
 
+controller.getOneByID = (req, res) => {
+	
+}
+
 module.exports = controller;
