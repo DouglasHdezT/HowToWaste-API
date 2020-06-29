@@ -511,6 +511,524 @@
 		]
 	},
   {
+		"name": "Liza S.A",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2241-0457" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "6 C. Ote. y Fnl. Av. San Martín No. 4-7, Santa Tecla",
+				"latitude": 13.670167, 
+				"longitude": -89.287775
+			}
+		],
+		"emails": [ "mticas@liza.com.sv" ],
+		"contactWith": [ "Sra. Margarita de Borja" ],
+		"services":[
+			"Recepción de botellas de vidrio"
+		],
+		"materials": [
+			"Botellas de Vidrio  de Licor",
+			"Botellas de Vidrio Genéricas"
+		]
+	},
+	{
+		"name": "Marceya S.A de C.V",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2216-7178" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2216-7186" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2216-7192" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Carretera A Quezaltepeque, Km. 13, Resd. Las Margaritas, Bodega de Reciclaje, Apopa",
+				"latitude": 13.797823, 
+				"longitude": -89.181089
+			}
+		],
+		"emails": [ "info@marceya.com" ],
+		"webs": [
+			"www.marceya.com"
+		],
+		"contactWith": [ "Ing. César Reyes" ],
+		"services":[
+			"Recolección y compra/venta de todo tipo de papel"
+		],
+		"materials": [
+			"Libros",
+			"Papel de oficina",
+			"Revistas"
+		]
+	},
+	{
+		"name": "Matriceria Industrial Roxy",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2276-9888" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2286-5811" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2223-7333" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Carretera Troncal del Norte Km 7 1/2, Ciudad Delgado",
+				"latitude": 13.754591,
+				"longitude": -89.166805
+			}
+		],
+		"contactWith": [ 
+			"Sr. Antonio Salas",
+			"Sr. José Luis Barrientos" ],
+		"services":[
+			"Reciclaje de plásticos"
+		],
+		"materials": [
+			"Policloruro de Vinilo (PVC)",
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polipropileno (PP)"
+		]
+	},
+	{
+		"name": "Panamericana de reciclajes",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+502 2218-4664" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Final Calle Campos No 404 Boulevard San Jancinto, San Salvador",
+				"latitude": 13.688723,
+				"longitude": -89.188463
+			}
+		],
+		"emails": [ "chamber_cim@hotmail.com" ],
+		"contactWith": [ "Sra. Claudia Vásquez" ],
+		"services":[
+			"Compra y venta de desperdicios textiles"
+		],
+		"materials": [
+			"Desperdicios Textiles"
+		]
+	},
+	{
+		"name": "Plasticos El Panda S.A de C.v",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2278-8628" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2278-8553" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2338-4328" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Calle El Pedregal, Pol. A-1 No. 16 Ciudad Merliot",
+				"latitude": 13.678437,
+				"longitude": -89.256498
+			}
+		],
+		"emails": [ "panda2001@123.com.sv" ],
+		"contactWith": [ "Lic. Miguel Ángel Argueta" ],
+		"services":[
+			"Reciclaje de plásticos"
+		],
+		"materials": [
+			"Policarbonato (PP)",
+			"Policloruro de Vinilo (PVC)",
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polietileno Tereftalato (PET)",
+			"Polipropileno (PP)"
+		]
+	},
+	{
+		"name": "PROCOMES",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2274-8345" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2284-5304" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2227-0029" }
+		],
+		"directions": [
+			{
+				"name": "Dirección1", 
+				"desc": "Col. Satelite, Pasaje Jupiter # 35-J, San Salvador",
+				"latitude": 13.724846,
+				"longitude": -89.214869
+			},
+			{
+				"name": "Dirección2", 
+				"desc": "Calle Antigua a Tonacatepeque No. 125-A. Soyapango",
+				"latitude": 13.724846,
+				"longitude": -89.214869
+			}
+		],
+		"emails": [ "procomes@salnet.net" ],
+		"contactWith": [ 
+			"Sra. Cristina Lovo",
+			"Sra. Gilma de Calderón" 
+		],
+		"services":[
+			"Recolección de materiales reciclables"
+		],
+		"materials": [
+			"Aluminio de todo tipo",
+			"Bronce",
+			"Cobre",
+			"Lata de bebidas (Aluminio)",
+			"Papel de oficina",
+			"Policarbonato (PP)",
+			"Policloruro de Vinilo (PVC)",
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polietileno Tereftalato (PET)",
+			"Polipropileno (PP)",
+			"Revistas"
+		]
+	},
+	{
+		"name": "PROMA",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2271-5832" },
+			{ "phoneType": "Celular", "phoneNumber": "+503 7967-8296" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "3a Calle Poniente # 924, San Salvador",
+				"latitude": 13.705319,
+				"longitude": -89.243647
+			}
+		],
+		"emails": [ "promaongs@yahoo.com" ],
+		"contactWith": [ "Sr. Nelson Antonio Deras Cerón" ],
+		"materials": [
+			"Aluminio de todo tipo",
+			"Lata de bebidas (Aluminio)",
+			"Libros",
+			"Papel de oficina",
+			"Policarbonato (PP)",
+			"Policloruro de Vinilo (PVC)",
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polietileno Tereftalato (PET)",
+			"Polipropileno (PP)",
+			"Revistas"
+		]
+	},
+	{
+		"name": "Recicladora Don Bosco",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2277-6524" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Col. Mendez No. 3, Fte. a Ciudadela Don Bosco, Soyapango",
+				"latitude": 13.715151, 
+				"longitude": -89.149601
+			}
+		],
+		"emails": [ "recicladb@yahoo.com" ],
+		"contactWith": [ "Sr. Cruz Adalberto Romero" ],
+		"services":[
+			"Recolección y compra/venta de papel"
+		],
+		"materials": [
+			"Cartón",
+			"Papel de oficina",
+			"Papel periódico",
+			"Revistas"
+		]
+	},
+	{
+		"name": "Reciclajes S.A de C.V",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2277-9154" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Km 7 1/2 Boulevard del Ejercito y Calle Prusia No128, Soyapango",
+				"latitude": 13.696240, 
+				"longitude": -89.135465
+			}
+		],
+		"contactWith": [ "Sra. Diana Paulina de Hernández" ],
+		"materials": [
+			"Cartón"
+		]
+	},
+	{
+		"name": "Salinas Rivera S.A de C.V.",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2334-0654" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2334-4948" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Km. 62, Carretera Litoral, Municipio de Zacatecoluca, La Paz",
+				"latitude": 13.498146, 
+				"longitude": -88.869205
+			}
+		],
+		"emails": [ "cyrius@elsalvador.com" ],
+		"contactWith": [ 
+			"Sra. Esperanza Pineda",
+			"Sr. Wilfredo Salinas"
+		 ],
+		"services":[
+			"Recepción de plástico tipo HDPE y LDPE"
+		],
+		"materials": [
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)"
+		]
+	},
+	{
+		"name": "Salvacola",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2234-0000" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2226-6122 " },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2234-0068" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Col. La Rabida, 27 C. Oriente # 229, San Salvador",
+				"latitude": 13.713470, 
+				"longitude": -89.187813  
+			}
+		],
+		"emails": [ "lemus@lacascada.com.sv" ],
+		"contactWith": [ "Sr. Orlando Rosales" ],
+		"services":[
+			"Recepción de material plástico tipo PET"
+		],
+		"materials": [
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polietileno Tereftalato (PET)"
+		]
+	},
+	{
+		"name": "Salvaplastic S.A. de C.V.",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2243-0200" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2243-2067" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Zona Industrial Plan de La Laguna, Antiguo Cuscatlén, La Libertad",
+				"latitude": 13.672727,  
+				"longitude": -89.245986
+			}
+		],
+		"emails": [ "m.rivas@salvaplastic.com.sv" ],
+		"contactWith": [ "Sr.Marcos Arístides Rivas" ],
+		"services":[
+			"Reciclaje de plásticos"
+		],
+		"materials": [
+			"Policarbonato (PP)",
+			"Policloruro de Vinilo (PVC)",
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)"
+		]
+	},
+	{
+		"name": "Selva negra",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2229-2534" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Residencial San Rafael, Senda 3 Sur No 14, Santa Tecla",
+				"latitude": 13.680748, 
+				"longitude": -89.296920 
+			}
+		],
+		"emails": [ "mxselvanegra@yahoo.com" ],
+		"contactWith": [ "Sr. Max Baides" ],
+		"services":[
+			"Recolección y compra de cartuchos vacíos de tinta y tóner"
+		],
+		"materials": [
+			"Cartuchos Vacíos de Tinta y Tóner"
+		]
+	},
+	{
+		"name": "Sumadata",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2260-4763" },
+			{ "phoneType": "Celular", "phoneNumber": "+503 7797-1165" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "1a Calle Poniente y final 63 Av. Norte Edificio LaA Montaña # 22 Col. Escalón, San Salvador",
+				"latitude": 13.703220, 
+				"longitude": -89.222135
+			}
+		],
+		"emails": [ 
+			"rapalo@navegante.com.sv",
+			"sumasa_es@yahoo.com" 
+		],
+		"contactWith": [ "Sr. Rafael Alejandro Palacios" ],
+		"services":[
+			"Recolección y compra de cartuchos vacíos de tinta y tóner"
+		],
+		"materials": [
+			"Cartuchos Vacíos de Tinta y Tóner"
+		]
+	},
+	{
+		"name": "Sun Energy Corp",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2447-9343" },
+			{ "phoneType": "Celular", "phoneNumber": "+503 7706-1271" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "6 Av. Norte y 28 Calle Poniente # B4, Santa Ana",
+				"latitude": 14.007195, 
+				"longitude": -89.556617 
+			}
+		],
+		"emails": [ "sec@sunenergycorp.com" ],
+		"contactWith": [ "Ing. Manuel Cerrato" ],
+		"services":[
+			"Recolección y compra de aceite vegetal usado"
+		],
+		"materials": [
+			"Aceite Vegetal Usado"	
+		]
+	},
+	{
+		"name": "Tamcis S.A de C.V.",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2228-4085" },
+			{ "phoneType": "Celular", "phoneNumber": "+503 7886-4891" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Calle Walter Soundy # 2-6 Santa Tecla",
+				"latitude": 13.679885, 
+				"longitude": -89.279886 
+			}
+		],
+		"emails": [ "lu.tamayo@gmail.com" ],
+		"contactWith": [ 
+			"Sr. Luis Tamayo",
+			"Sr. Francisco Hernández"
+		],
+		"services":[
+			"Recolección y compra/venta de todo tipo de papel y cartón"
+		],
+		"materials": [
+			"Aluminio de todo tipo",
+			"Cartón",
+			"Lata de bebidas (Aluminio)",
+			"Papel de oficina",
+			"Papel periódico",
+			"Policarbonato (PP)",
+			"Policloruro de Vinilo (PVC)",
+			"Polietileno de Alta Densidad (HDPE)",
+			"Polietileno de Baja Densidad (LDPE)",
+			"Polietileno Tereftalato (PET)",
+			"Polipropileno (PP)",
+			"Revistas"
+		]
+	},
+	{
+		"name": "Termoencogibles",
+		"phoneNumbers": [
+			{ "phoneType": "PBX", "phoneNumber": "(503) 2212-7300" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2278-0029 " },
+			{ "phoneType": "FAX", "phoneNumber": "(503) 2278-2224" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Calle L-3, Polígono D, Lotes 1 y 2 Zona Industrial Ciudad Merliot, La Libertad, El Salvador C.A.",
+				"latitude": 13.675553, 
+				"longitude": -89.258782
+			}
+		],
+		"emails": [ "ventas@termo.com.sv" ],
+		"webs": [ "www.termo.com.sv" ],
+		"contactWith": [ "Ing.Rodrigo Tona, Gerente General" ],
+		"services":[
+			"Recolección de bolsas de polietileno de baja densidad"
+		],
+		"materials": [
+			"Polietileno de Baja Densidad (LDPE)"
+		]
+	},
+	{
+		"name": "Textiles San Andrés, Hilasal",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2338-4099" },
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2338-4488" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Km 32 Carretera a Santa Ana, San Juan Opico, La Libertad",
+				"latitude": 13.795567, 
+				"longitude": -89.387276
+			}
+		],
+		"emails": [ "otto.cabrera@hilasal.com" ],
+		"contactWith": [ "Sr.Otto Cabrera" ],
+		"services":[
+			"Reciclaje de aceite usado y otros materiales"
+		],
+		"materials": [
+			"Aceites y Lubricantes Usados",
+			"Desperdicios Textiles",
+			"Libros",
+			"Papel de oficina",
+			"Papel periódico",
+			"Revistas"
+
+		]
+	},
+	{
+		"name": "Unica",
+		"phoneNumbers": [
+			{ "phoneType": "Teléfono", "phoneNumber": "+503 2211-4059" }
+		],
+		"directions": [
+			{
+				"name": "Principal", 
+				"desc": "Final Calle El Progreso Vía Carmela Pasaje 2, Casa No. 2 Mejicanos, San Salvador",
+				"latitude": 13.733823, 
+				"longitude": -89.194655
+			}
+		],
+		"emails": [ "unicaservicio@integra.com.sv" ],
+		"contactWith": [ "Sr. Fernando Flores" ],
+		"services":[
+			"Recolección de materiales reciclables y desechos sólidos comunes"
+		],
+		"materials": [
+			"Acero",
+			"Aluminio de todo tipo",
+			"Bronce",
+			"Cobre",
+			"Hierro",
+			"Lata de bebidas (Aluminio)",
+			"Libros",
+			"Papel de oficina",
+			"Revistas"
+		]
+	},
+  {
 		"name": "Fibras Recicladas S.A. de C.V.",
 		"phoneNumbers": [
 			{ "phoneType": "Teléfono", "phoneNumber": "+503 2280-0131" }
