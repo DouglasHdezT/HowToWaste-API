@@ -16,13 +16,42 @@ var utilsRouter = require('./routes/utils');
  * Basic configuration
  */
 
-dotenv.config();
-process.title = "HowToWasteAPI";
-
 var app = express();
+
+dotenv.config();
 database.connect();
 
-app.use(logger('dev'));
+process.title = "HowToWasteAPI";
+
+/**
+ * Morgan Middleware
+ */
+
+
+app.use((req, res, next) => {
+	const myDate = new Date();
+	req.myDate = `${myDate.getDate()}/${myDate.getMonth()}/${myDate.getFullYear()} ${myDate.getHours()}:${myDate.getMinutes()}`;
+	next();
+})
+
+logger.token("myDate", req => req.myDate);
+logger.token("statusColored", (req, res) => {
+	var status = (typeof res.headersSent !== 'boolean' ? Boolean(res.header) : res.headersSent)
+        ? res.statusCode
+        : undefined
+
+    var color = status >= 500 ? 31 // red
+        : status >= 400 ? 33 // yellow
+            : status >= 300 ? 36 // cyan
+                : status >= 200 ? 32 // green
+                    : 0; // no color
+
+    return '\x1b[' + color + 'm' + status + '\x1b[0m';
+});
+logger.format('logFormat', ':myDate -> :method:url :statusColored, :response-time ms');
+
+
+app.use(logger('logFormat'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
