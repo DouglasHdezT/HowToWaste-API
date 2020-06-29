@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const recyclerPlaceController = require("../../controllers/api/recyclerPlaces");
+const recyclerPlaceController = require("../../controllers/api/recyclerPlace");
 
 //router.get("/dumpData", recyclerPlaceController.dumpRecyclerPlaces);
 
