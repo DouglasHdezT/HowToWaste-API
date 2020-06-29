@@ -31,7 +31,14 @@ process.title = "HowToWasteAPI";
 
 app.use((req, res, next) => {
 	const myDate = new Date();
-	req.myDate = `${myDate.getDate()}/${myDate.getMonth()}/${myDate.getFullYear()} ${myDate.getHours()}:${myDate.getMinutes()}`;
+	const { day, month, year, hours, minutes } = {
+		day: String(myDate.getDate()).padStart(2, '0'),
+		month: String(myDate.getMonth()).padStart(2, '0'),
+		year: String(myDate.getFullYear()),
+		hours: String(myDate.getHours()).padStart(2, '0'),
+		minutes: String(myDate.getMinutes()).padStart(2, '0'),
+	}
+	req.myDate = `${day}/${month}/${year} ${hours}:${minutes}`;
 	next();
 })
 
