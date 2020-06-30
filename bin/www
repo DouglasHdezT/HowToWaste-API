@@ -7,11 +7,8 @@
 var app = require('../app');
 var debug = require('debug')('howtowasteapi:server');
 var http = require('http');
-<<<<<<< HEAD
-=======
 const https = require('https');
 const fs = require('fs');
->>>>>>> parent of 22b401c... Fix: Cert compat
 
 /**
  * Get port from environment and store in Express.
@@ -23,8 +20,6 @@ app.set('port', port);
 /**
  * Create HTTP server.
  */
-<<<<<<< HEAD
-=======
 let server;
 
 if(fs.existsSync("certs/selfsigned.crt") && fs.existsSync("certs/selfsigned.key")){
@@ -37,7 +32,6 @@ if(fs.existsSync("certs/selfsigned.crt") && fs.existsSync("certs/selfsigned.key"
 }else{
 	server = http.createServer(app)
 }
->>>>>>> parent of 22b401c... Fix: Cert compat
 
 const server = http.createServer(app)
 /**
