@@ -9,6 +9,7 @@ var debug = require('debug')('howtowasteapi:server');
 var http = require('http');
 const https = require('https');
 const fs = require('fs');
+const path = require("path");
 
 /**
  * Get port from environment and store in Express.
@@ -22,12 +23,15 @@ app.set('port', port);
  */
 let server;
 
-if(fs.existsSync("certs/selfsigned.crt") && fs.existsSync("certs/selfsigned.key")){
+const certPath = path.join(__dirname, "certs", "selfsigned.crt");
+const keyPath = path.join(__dirname, "certs", "selfsigned.key");
+
+if(fs.existsSync(certPath) && fs.existsSync(keyPath)){
 	console.log("Here");
 	
 	server = https.createServer({
-		cert: fs.readFileSync("certs/selfsigned.crt"),
-		key: fs.readFileSync("certs/selfsigned.key"),
+		cert: fs.readFileSync(certPath),
+		key: fs.readFileSync(keyPath),
 	},app);
 }else{
 	server = http.createServer(app)
