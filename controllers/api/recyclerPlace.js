@@ -26,6 +26,14 @@ controller.getAll = (req, res) => {
 	});
 }
 
+controller.getDirections = (req, res) => {
+	RecyclerPlace.find({}," _id name directions ", (err,posts)=>{
+		if(err) return res.status(500).json({message:`Error interno ${err}`})
+		if(!posts) return res.status(404).json({message:"Post no existente"})
+		res.status(200).json({posts})
+	});
+}
+
 controller.getOneByID = (req, res) => {
 	const id = req.params.id
 	console.log(id)
