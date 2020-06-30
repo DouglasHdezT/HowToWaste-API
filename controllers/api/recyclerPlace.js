@@ -19,28 +19,28 @@ controller.dumpRecyclerPlaces = (req, res) => {
 }
 
 controller.getAll = (req, res) => {
-	RecyclerPlace.find({},(err,posts)=>{
+	RecyclerPlace.find({},(err, places)=>{
 		if(err) return res.status(500).json({message:`Error interno ${err}`})
-		if(!posts) return res.status(404).json({message:"Post no existente"})
-		res.status(200).json({posts})
+		if(!places) return res.status(404).json({message:"Post no existente"})
+		res.status(200).json({posts: places})
 	});
 }
 
 controller.getDirections = (req, res) => {
-	RecyclerPlace.find({}," _id name directions ", (err,posts)=>{
+	RecyclerPlace.find({}," _id name directions ", (err, places)=>{
 		if(err) return res.status(500).json({message:`Error interno ${err}`})
-		if(!posts) return res.status(404).json({message:"Post no existente"})
-		res.status(200).json({posts})
+		if(!places) return res.status(404).json({message:"Post no existente"})
+		res.status(200).json({posts: places})
 	});
 }
 
 controller.getOneByID = (req, res) => {
 	const id = req.params.id
 	console.log(id)
-	RecyclerPlace.findById(id,(err,post)=>{
+	RecyclerPlace.findById(id,(err, place)=>{
     if (err) return res.status(500).json({message: `Error interno ${err}`})
-    if(!post) return res.status(404).json({message:"No existente"})
-    res.status(200).json({post})
+    if(!place) return res.status(404).json({message:"No existente"})
+    res.status(200).json({post: place})
 })
 }
 
