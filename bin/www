@@ -22,12 +22,12 @@ app.set('port', port);
  */
 let server;
 
-if(fs.existsSync("./certs/selfsigned.crt") && fs.existsSync("./certs/selfsigned.key")){
+if(fs.existsSync("certs/selfsigned.crt") && fs.existsSync("certs/selfsigned.key")){
 	console.log("Here");
 	
 	server = https.createServer({
-		cert: fs.readFileSync("./certs/selfsigned.crt"),
-		key: fs.readFileSync("./certs/selfsigned.key"),
+		cert: fs.readFileSync("certs/selfsigned.crt"),
+		key: fs.readFileSync("certs/selfsigned.key"),
 	},app);
 }else{
 	server = http.createServer(app)
