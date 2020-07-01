@@ -56,7 +56,7 @@ logger.token("statusColored", (req, res) => {
 
     return '\x1b[' + color + 'm' + status + '\x1b[0m';
 });
-logger.format('logFormat', ':myDate -> :method:url :statusColored, :response-time ms');
+logger.format('logFormat', ':myDate -> :method:url :statusColored, :response-time ms -> from :remote-addr');
 
 
 app.use(logger('logFormat'));
