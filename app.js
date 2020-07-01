@@ -28,7 +28,6 @@ process.title = "HowToWasteAPI";
  * Morgan Middleware
  */
 
-
 app.use((req, res, next) => {
 	const myDate = new Date();
 	const { day, month, year, hours, minutes } = {

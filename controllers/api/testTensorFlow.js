@@ -4,6 +4,8 @@ const mobilenet = require('@tensorflow-models/mobilenet');
 const controller = {};
 
 controller.test = async (req, res) => {
+	console.log(req.files.image);
+
 	try {
 		const model = await mobilenet.load();
 		res.status(200).json({message: "Se cargo"});
