@@ -13,7 +13,7 @@ controller.test = async (req, res) => {
 		const buffer = fs.readFileSync(file.path);
 		const tfImage = tfNode.node.decodeImage(buffer);
 
-		const predictions = await model.detect(tfImage);
+		const predictions = await model.classify(tfImage);
 
 		res.status(200).json({message: predictions});
 	}catch(e){
