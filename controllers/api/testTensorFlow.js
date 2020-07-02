@@ -17,6 +17,8 @@ controller.test = async (req, res) => {
 
 		res.status(200).json({message: predictions});
 	}catch(e){
+		console.log(e);
+		
 		res.status(500).json({message: e});
 	}
 }
