@@ -1,6 +1,7 @@
 const tfNode = require('@tensorflow/tfjs-node');
 const fs = require('fs');
 const mobilenet = require('@tensorflow-models/mobilenet');
+const knnClassifier = require('@tensorflow-models/knn-classifier');
 
 
 const controller = {};
@@ -9,12 +10,17 @@ controller.test = async (req, res) => {
 	const { file } = req;
 	
 	try {
-		const model = await mobilenet.load();		
+		const model = await mobilenet.load();
+		const classifier = await knnClassifier.create();
+
 		const buffer = fs.readFileSync(file.path);
 		const tfImage = tfNode.node.decodeImage(buffer);
 
-		const predictions = await model.classify(tfImage);
 		const activation =  await model.infer(tfImage, "conv_preds");
+
+		classifier.addExample(activation, "Página de papel");
+
+		const predictions = await classifier.predictClass(tfImage);
 
 		console.log(activation);
 
