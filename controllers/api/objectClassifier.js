@@ -7,7 +7,6 @@ const TensorStringModel = require('../../models/TensorString');
 
 const controller = {}
 
-//TODO: Add middleware multer
 controller.saveObject = async (req, res) => {
 	const { file } = req;
 	const { name, material } = req.body;
@@ -24,9 +23,15 @@ controller.saveObject = async (req, res) => {
 			const tensorStringDoc = new TensorStringModel({
 				key: name,
 				material: material,
-				content: JSON.stringify(activation)
+				content: JSON.stringify(activation),
 			});
+
+			const tensorDoc = await tensorStringDoc.save();
+			console.log(`Saved Tensor: ${tensorDoc}`);
+			
+			return res.status(200).json({message: "Model saved Successfully"})
 		} catch (error) {
+			console.log(error);
 			return res.status(500).json({message: "Internal server error"})
 		}
 	}else{
