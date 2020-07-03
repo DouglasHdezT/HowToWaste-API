@@ -14,6 +14,9 @@ controller.test = async (req, res) => {
 		const tfImage = tfNode.node.decodeImage(buffer);
 
 		const predictions = await model.classify(tfImage);
+		const activation =  await model.infer(tfImage, "conv_preds");
+
+		console.log(activation);
 
 		res.status(200).json({message: predictions});
 	}catch(e){
