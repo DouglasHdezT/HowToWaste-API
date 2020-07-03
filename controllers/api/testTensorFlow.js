@@ -18,11 +18,11 @@ controller.test = async (req, res) => {
 
 		const activation =  await model.infer(tfImage, "conv_preds");
 
-		classifier.addExample(activation, "Página de papel");
+		classifier.addExample(activation, "Coca cola");
 
 		const predictions = await classifier.predictClass(activation);
 
-		console.log(activation);
+		console.log(classifier.getClassifierDataset());
 
 		res.status(200).json({message: predictions});
 	}catch(e){
