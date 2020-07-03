@@ -14,8 +14,6 @@ controller.test = async (req, res) => {
 		const model = await mobilenet.load();
 		const classifier = await knnClassifier.create();
 
-		classifier.setClassifierDataset();
-
 		const buffer = fs.readFileSync(file.path);
 		const tfImage = tfNode.node.decodeImage(buffer);
 
@@ -25,7 +23,7 @@ controller.test = async (req, res) => {
 
 		const predictions = await classifier.predictClass(activation);
 
-		console.log(JSON.stringify(classifier.getClassifierDataset()));
+		console.log(JSON.stringify(activation));
 
 		res.status(200).json({message: predictions});
 	}catch(e){
