@@ -2,6 +2,7 @@ const tfNode = require('@tensorflow/tfjs-node');
 const fs = require('fs');
 const mobilenet = require('@tensorflow-models/mobilenet');
 const knnClassifier = require('@tensorflow-models/knn-classifier');
+const { Mongoose } = require('mongoose');
 
 
 const controller = {};
@@ -12,6 +13,8 @@ controller.test = async (req, res) => {
 	try {
 		const model = await mobilenet.load();
 		const classifier = await knnClassifier.create();
+
+		classifier.setClassifierDataset();
 
 		const buffer = fs.readFileSync(file.path);
 		const tfImage = tfNode.node.decodeImage(buffer);
@@ -30,6 +33,10 @@ controller.test = async (req, res) => {
 		
 		res.status(500).json({message: e});
 	}
+}
+
+controller.save = (req, res) => {
+
 }
 
 module.exports = controller;
