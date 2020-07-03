@@ -20,7 +20,7 @@ controller.test = async (req, res) => {
 
 		classifier.addExample(activation, "Página de papel");
 
-		const predictions = await classifier.predictClass(tfImage);
+		const predictions = await classifier.predictClass(activation);
 
 		console.log(activation);
 
