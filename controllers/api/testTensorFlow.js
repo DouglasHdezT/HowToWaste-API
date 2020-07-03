@@ -22,7 +22,7 @@ controller.test = async (req, res) => {
 
 		const predictions = await classifier.predictClass(activation);
 
-		console.log(classifier.getClassifierDataset());
+		console.log(JSON.stringify(classifier.getClassifierDataset()));
 
 		res.status(200).json({message: predictions});
 	}catch(e){
