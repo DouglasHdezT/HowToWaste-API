@@ -54,7 +54,15 @@ controller.classifyObject = async (req, res) => {
 				dataset[tensorString.key] = tfNode.tensor(JSON.parse(tensorString.content));
 			});
 
-			console.log(dataset);
+			classifier.setClassifierDataset(dataset);
+
+			const buffer = fs.readFileSync(file.path);
+			const tfImage = tfNode.node.decodeImage(buffer);
+
+			const activation =  model.infer(tfImage, "conv_preds");
+
+			const predictions = await classifier.predictClass(activation);
+			return res.status(200).json({predictions});
 		} catch (error) {
 			console.log(error);
 			return res.status(500).json({message: "Internal server error"});
