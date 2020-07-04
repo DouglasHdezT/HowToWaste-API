@@ -5,6 +5,7 @@ const upload = multer({dest: '../../public/uploads'});
 
 const objectClassifierController = require('../../controllers/api/objectClassifier');
 
+router.get("/getAll", objectClassifierController.getAllTensors);
 router.post("/saveModel", upload.single("image"), objectClassifierController.saveObject);
 
 module.exports = router;
