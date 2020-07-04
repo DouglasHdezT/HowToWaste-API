@@ -58,6 +58,9 @@ controller.classifyObject = async (req, res) => {
 			const activation =  model.infer(tfImage, "conv_preds");
 
 			const predictions = await classifier.predictClass(activation);
+			const probability = predictions.confidences[predictions.label];
+			console.log(`Probabilidad: ${probability}\n${probability > 0.5 ? "Aceptable" : "No aceptable"}`);
+
 			return res.status(200).json({predictions});
 		} catch (error) {
 			console.log(error);
