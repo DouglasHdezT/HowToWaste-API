@@ -49,7 +49,7 @@ controller.classifyObject = async (req, res) => {
 			const tensorStringDocs = await TensorStringModel.find({}).exec();
 
 			tensorStringDocs.forEach(tensorString => {
-				classifier.addExample(tensorString.key, tfNode.tensor(JSON.parse(tensorString.content)));
+				classifier.addExample(tfNode.tensor(JSON.parse(tensorString.content)), tensorString.key);
 			});
 
 			const buffer = fs.readFileSync(file.path);
