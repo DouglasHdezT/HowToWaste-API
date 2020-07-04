@@ -23,13 +23,38 @@ controller.saveObject = async (req, res) => {
 			const tensorStringDoc = new TensorStringModel({
 				key: name,
 				material: material,
-				content: JSON.stringify(activation),
+				content: JSON.stringify(activation.arraySync()),
 			});
 
 			const tensorDoc = await tensorStringDoc.save();
 			console.log(`Saved Tensor: ${tensorDoc}`);
 			
 			return res.status(200).json({message: "Model saved Successfully"});
+		} catch (error) {
+			console.log(error);
+			return res.status(500).json({message: "Internal server error"});
+		}
+	}else{
+		return res.status(400).json({message: "Bad Request!"});
+	}
+}
+
+controller.classifyObject = async (req, res) => {
+	const { file } = req;
+
+	if(file){
+		try {
+			const model = await mobilenet.load();
+			const classifier = knnClassifier.create();
+
+			const tensorStringDocs = await TensorStringModel.find({}).exec();
+			const dataset = {};
+
+			tensorStringDocs.forEach(tensorString => {
+				dataset[tensorString.key] = JSON.parse(tensorString.content);
+			});
+
+			console.log(dataset);
 		} catch (error) {
 			console.log(error);
 			return res.status(500).json({message: "Internal server error"});
@@ -47,6 +72,14 @@ controller.getAllTensors = (req, res) => {
 		
 		return res.status(200).json({tensors: docs});
 	});
+}
+
+controller.dropCollection = (req, res) => {
+	TensorStringModel.deleteMany({}, (err) => {
+		if(err) return res.status(500).json({message: "Internal server error"});
+
+		return res.status(200).json({message: "Dropped"});
+	})
 }
 
 module.exports = controller;
