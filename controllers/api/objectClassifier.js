@@ -51,7 +51,7 @@ controller.classifyObject = async (req, res) => {
 			const dataset = {};
 
 			tensorStringDocs.forEach(tensorString => {
-				dataset[tensorString.key] = JSON.parse(tensorString.content);
+				dataset[tensorString.key] = tfNode.tensor(JSON.parse(tensorString.content));
 			});
 
 			console.log(dataset);
