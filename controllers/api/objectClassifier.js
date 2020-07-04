@@ -54,6 +54,7 @@ controller.classifyObject = async (req, res) => {
 			});
 
 			classifier.setClassifierDataset(dataset);
+			console.log(classifier.getClassifierDataset());
 
 			const buffer = fs.readFileSync(file.path);
 			const tfImage = tfNode.node.decodeImage(buffer);
