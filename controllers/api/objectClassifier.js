@@ -47,14 +47,10 @@ controller.classifyObject = async (req, res) => {
 			const classifier = knnClassifier.create();
 
 			const tensorStringDocs = await TensorStringModel.find({}).exec();
-			const dataset = {};
 
 			tensorStringDocs.forEach(tensorString => {
-				dataset[tensorString.key] = tfNode.tensor(JSON.parse(tensorString.content));
+				classifier.addExample(tensorString.key, tfNode.tensor(JSON.parse(tensorString.content)));
 			});
-
-			classifier.setClassifierDataset(dataset);
-			console.log(classifier.getClassifierDataset());
 
 			const buffer = fs.readFileSync(file.path);
 			const tfImage = tfNode.node.decodeImage(buffer);
