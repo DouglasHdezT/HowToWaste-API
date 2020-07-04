@@ -27,7 +27,6 @@ controller.saveObject = async (req, res) => {
 			});
 
 			const tensorDoc = await tensorStringDoc.save();
-			console.log(`Saved Tensor: ${tensorDoc}`);
 			
 			return res.status(200).json({message: "Model saved Successfully"});
 		} catch (error) {
