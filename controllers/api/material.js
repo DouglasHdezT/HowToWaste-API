@@ -44,7 +44,7 @@ controller.getAll = (req, res) => {
 	Material.find({},(err, mats)=>{
 		if(err) return res.status(500).json({message:`Error interno ${err}`})
 		if(!mats) return res.status(404).json({message:"Post no existente"})
-		res.status(200).json({mats})
+		res.status(200).json({materials: mats})
 	});
 }
 
