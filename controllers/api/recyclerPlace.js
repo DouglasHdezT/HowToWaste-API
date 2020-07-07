@@ -13,7 +13,6 @@ controller.dumpRecyclerPlaces = (req, res) => {
 			return res.status(500).json({message: "An error ocurred"})
 		}
 
-		console.log(docs);
 		res.status(200).json({message: "All data dumped"})
 	});
 }

@@ -1,0 +1,53 @@
+[
+	{
+		"name": "Metales",
+		"items": [
+			"Lata de Refresco",
+			"Papel Aluminio",
+			"Piezas de Aluminio",
+			"Lámina de Aluminio",
+			"Barra de Cobre",
+			"Piezas de Cobre",
+			"Piezas de Hierro",
+			"Piezas de Acero",
+			"Lámina de Cobre",
+			"Lámina de Acero",
+			"Tubos de Cobre",
+			"Tubos de Aluminio"
+		]
+	},
+	{
+		"name": "Orgánicos",
+		"items": [
+			"Desechos de comida",
+			"Desechos de jardín"
+		]
+	},
+	{
+		"name": "Vídrio",
+		"items": [
+			"Botella de Vídrio",
+			"Lámina de Vídrio",
+			"Piezas de Vídrio"
+		]
+	},{
+		"name": "Plástico",
+		"items":[
+			"Botella de Plástico",
+			"Bolsas Plásticas",
+			"Pajillas",
+			"Juguetes",
+			"Piezas de Plástico"
+		]
+	},
+	{
+		"name": "Papel",
+		"items": [
+			"Caja de cartón",
+			"Página de papel",
+			"Libro",
+			"Cuaderno"
+		]
+	}
+
+]
