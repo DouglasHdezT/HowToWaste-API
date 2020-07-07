@@ -51,7 +51,7 @@ controller.getAll = (req, res) => {
 controller.getOneByID = (req, res) => {
     const id = req.params.id
 
-    material.findById(id,(err, material)=>{
+    Material.findById(id,(err, material)=>{
         if (err) return res.status(500).json({message: `Error interno ${err}`})
         if(!material) return res.status(404).json({message:"No existente"})
         res.status(200).json({material: material})
