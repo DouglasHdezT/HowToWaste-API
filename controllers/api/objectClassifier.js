@@ -2,6 +2,7 @@ const tfNode = require('@tensorflow/tfjs-node');
 const fs = require('fs');
 const mobilenet = require('@tensorflow-models/mobilenet');
 const knnClassifier = require('@tensorflow-models/knn-classifier');
+const { validationResult } = require("express-validator")
 
 const TensorStringModel = require('../../models/TensorString');
 const Material = require('../../models/Material');
@@ -9,10 +10,12 @@ const Material = require('../../models/Material');
 const controller = {}
 
 controller.saveObject = async (req, res) => {
+	const errors = validationResult(req);
+
 	const { file } = req;
 	const { materialID, item } = req.body;
 
-	if(file && item && materialID){
+	if(!errors.isEmpty() && file && item && materialID){
 		try {
 			const model = await mobilenet.load();
 

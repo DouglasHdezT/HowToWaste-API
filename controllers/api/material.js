@@ -1,5 +1,5 @@
 const Material = require('../../models/Material');
-const materialData = require("../../assets/json/materialData.json")
+const materialData = require("../../assets/json/materialData.json");
 
 const controller = {}
 
