@@ -10,7 +10,7 @@ const controller = {}
 
 controller.saveObject = async (req, res) => {
 	const { file } = req;
-	const { name, material } = req.body;
+	const { materialID, item } = req.body;
 
 	if(file && name && material){
 		try {
@@ -19,11 +19,17 @@ controller.saveObject = async (req, res) => {
 			const buffer = fs.readFileSync(file.path);
 			const tfImage = tfNode.node.decodeImage(buffer);
 
-			const activation =  await model.infer(tfImage, "conv_preds");
+			const activation = await model.infer(tfImage, "conv_preds");
+			
+			const material = await Material.findById(materialID).exec();
+			if (!material) return res.status(404).json({ message: "Material not found" });
+			
+			const itemIndex = material.items.findIndex(itemA => itemA === item);
+			if(itemIndex < 0) return res.status(404).json({ message: "Item not found" });
 
 			const tensorStringDoc = new TensorStringModel({
-				key: name,
-				material: material,
+				key: item,
+				material: material.name,
 				content: JSON.stringify(activation.arraySync()),
 			});
 
@@ -50,7 +56,7 @@ controller.classifyObject = async (req, res) => {
 			const tensorStringDocs = await TensorStringModel.find({}).exec();
 
 			tensorStringDocs.forEach(tensorString => {
-				classifier.addExample(tfNode.tensor(JSON.parse(tensorString.content)), tensorString.key);
+				classifier.addExample(tfNode.tensor(JSON.parse(tensorString.content)), `${tensorString.key}|${tensorString.material}`);
 			});
 
 			const buffer = fs.readFileSync(file.path);
@@ -65,7 +71,11 @@ controller.classifyObject = async (req, res) => {
 			const isAcceptable = probability >= 0.75;
 
 			if (isAcceptable) {
-				return res.status(200).json({ type: predictions.label, probability });
+				return res.status(200).json({
+					type: predictions.label.split("|")[0],
+					material: predictions.label.split("|")[1],
+					probability
+				});
 			} else { 
 				return res.status(404).json({message: "I dont know what is it"});
 			}
