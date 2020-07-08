@@ -4,6 +4,7 @@ const mobilenet = require('@tensorflow-models/mobilenet');
 const knnClassifier = require('@tensorflow-models/knn-classifier');
 
 const TensorStringModel = require('../../models/TensorString');
+const Material = require('../../models/Material');
 
 const controller = {}
 
@@ -59,9 +60,16 @@ controller.classifyObject = async (req, res) => {
 
 			const predictions = await classifier.predictClass(activation, 15);
 			const probability = predictions.confidences[predictions.label];
-			console.log(`Probabilidad: ${probability}\n${probability > 0.5 ? "Aceptable" : "No aceptable"}`);
+			console.log(`Probabilidad: ${probability}\n${probability > 0.75 ? "Aceptable" : "No aceptable"}`);
 
-			return res.status(200).json({predictions});
+			const isAcceptable = probability >= 0.75;
+
+			if (isAcceptable) {
+				return res.status(200).json({ type: predictions.label, probability });
+			} else { 
+				return res.status(404).json({message: "I dont know what is it"});
+			}
+
 		} catch (error) {
 			console.log(error);
 			return res.status(500).json({message: "Internal server error"});
