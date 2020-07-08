@@ -28,6 +28,8 @@ controller.insert = async (req, res) => {
 				return res.status(404).json({ message: "Not Found" });
 			}
 
+			if(item.indexOf("|") > 0) return res.status(400).json({ message: "Bad request!" });
+
 			material.items.push(item);
 			material.save();
 
