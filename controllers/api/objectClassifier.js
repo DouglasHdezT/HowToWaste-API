@@ -15,7 +15,7 @@ controller.saveObject = async (req, res) => {
 	const { file } = req;
 	const { materialID, item } = req.body;
 
-	if(!errors.isEmpty() && file && item && materialID){
+	if(errors.isEmpty() && file && item && materialID){
 		try {
 			const model = await mobilenet.load();
 
