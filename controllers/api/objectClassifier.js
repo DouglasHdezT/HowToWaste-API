@@ -69,6 +69,8 @@ controller.classifyObject = async (req, res) => {
 
 			const predictions = await classifier.predictClass(activation, 15);
 			const probability = predictions.confidences[predictions.label];
+			console.log(predictions.label);
+			
 			console.log(`Probabilidad: ${probability}\n${probability > 0.75 ? "Aceptable" : "No aceptable"}`);
 
 			const isAcceptable = probability >= 0.75;
