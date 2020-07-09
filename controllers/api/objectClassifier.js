@@ -10,6 +10,12 @@ const Material = require('../../models/Material');
 const controller = {}
 
 controller.saveObject = async (req, res) => {
+	console.log({
+		file: req.file,
+		materialID: req.body.materialID,
+		item: req.body.item,
+	});
+	
 	const errors = validationResult(req);
 
 	const { file } = req;
@@ -69,8 +75,8 @@ controller.classifyObject = async (req, res) => {
 
 			const predictions = await classifier.predictClass(activation, 15);
 			const probability = predictions.confidences[predictions.label];
-			console.log(predictions.label);
 			
+			console.log(predictions.label);
 			console.log(`Probabilidad: ${probability}\n${probability > 0.75 ? "Aceptable" : "No aceptable"}`);
 
 			const isAcceptable = probability >= 0.75;
