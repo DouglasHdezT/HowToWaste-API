@@ -10,12 +10,6 @@ const Material = require('../../models/Material');
 const controller = {}
 
 controller.saveObject = async (req, res) => {
-	console.log({
-		file: req.file,
-		materialID: req.body.materialID,
-		item: req.body.item,
-	});
-	
 	const errors = validationResult(req);
 
 	const { file } = req;
