@@ -7,6 +7,6 @@ const materialController = require("../../controllers/api/material");
 router.get("/getAll", materialController.getAll);
 router.get("/one/:id", materialController.getOneByID);
 router.post("/item", materialController.insert);
-router.put("/", materialController.update);
+//router.put("/", materialController.update);
 
 module.exports = router;

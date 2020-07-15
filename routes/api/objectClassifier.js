@@ -7,7 +7,7 @@ const { check } = require('express-validator');
 
 const objectClassifierController = require('../../controllers/api/objectClassifier');
 
-router.get("/getAll", objectClassifierController.getAllTensors);
+//router.get("/getAll", objectClassifierController.getAllTensors);
 //router.get("/dropAll", objectClassifierController.dropCollection);
 router.post("/saveModel", upload.single("image"), [check("materialID").isMongoId().withMessage("Needs MongoID")], objectClassifierController.saveObject);
 router.post("/classify", upload.single("image"), objectClassifierController.classifyObject);
